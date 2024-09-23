@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 function RecipeGenerator() {
   const [ingredients, setIngredients] = useState("");
-  const [cusine, setCusine] = useState("any");
+  const [cusine, setCusine] = useState("");
   const [dietaryRestrictions, setDietaryRestrictions] = useState("");
   const [recipe, setRecipe] = useState("");
 
